@@ -1,25 +1,22 @@
 # Employee Salary Prediction
 
-Predicts whether an individual's income exceeds $50K/year based on demographic 
-and work-related attributes, using the UCI Adult Census Income dataset.
+This project predicts whether a person's income is above $50K or not, 
+based on details like age, education, occupation, and hours worked per week.
 
 ## Dataset
-UCI Adult Census Income dataset — [X] records, features including age, 
-education, occupation, hours-per-week, etc.
+UCI Adult Census Income dataset (48,842 records, 15 columns).
 
-## Approach
-- Data cleaning and handling of missing values
-- Feature engineering and encoding of categorical variables
-- Model(s) trained: [YOUR MODEL(S)]
-- Evaluation: [YOUR METRIC, e.g. accuracy, F1-score]
+## What I did
+- Cleaned the data: fixed missing values, removed outliers, dropped extra columns
+- Converted text columns to numbers and scaled the data
+- Trained 5 models: Logistic Regression, Random Forest, KNN, SVM, Gradient Boosting
+- Compared their accuracy and saved the best model
 
-## Results
-Achieved [X]% accuracy / F1-score of [X] on the test set.
+## Result
+Gradient Boosting performed best with 85.73% accuracy.
 
-## Tech Stack
-Python, Pandas, NumPy, Scikit-learn, Jupyter Notebook
+## Tools Used
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Jupyter Notebook
 
 ## How to Run
-1. Clone the repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Open `Employee_Salary_Prediction.ipynb` in Jupyter
+Open Employee_Salary_Prediction.ipynb in Jupyter Notebook or Google Colab and run all cells.
