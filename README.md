@@ -16,7 +16,7 @@ UCI Adult Census Income dataset (48,842 records, 15 columns).
 Gradient Boosting performed best with 85.73% accuracy.
 
 ## Tools Used
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Jupyter Notebook
+Python, Pandas, Scikit-learn, Matplotlib, Jupyter Notebook
 
 ## How to Run
 Open Employee_Salary_Prediction.ipynb in Jupyter Notebook or Google Colab and run all cells.
